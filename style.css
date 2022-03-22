@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Container>h1 {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-size: 30px;
+  background-color: aqua;
+  border-bottom: 2px solid darkblue;
+}
+
+.Container>img{
+    width: 270px;
+    height: 100px;
+    margin-left: 41%;
+}
+
+.enrollment {
+  display: block;
+  /* flex-direction: column; */
+  margin: 40px 10px;
+  padding: 10px;
+}
+
+.enrollment>input {
+  width: 30em;
+  padding: 8px;
+  margin: 15px 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  outline: none;
+}
+
+label {
+  font-size: 18px;
+}
+
+.name {
+  display: flex;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.custom-file-input::before {
+  content: 'Select Image';
+  display: inline-block;
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 50%;
+}
+
+.gender, .skills {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+p {
+  margin-right: 10px;
+}
+
+input[type=radio], input[ type=checkbox] {
+  transform: scale(1.3);
+  margin: 10px 10px;
+}
+
+.skills>label, .gender>label {
+  padding: 0px 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin: 10px 20px;
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background: rgb(61, 59, 59);
+}
+
+#btn{
+    background-color: #4696e0;
+}
+
+#btn2{
+    background-color: red;
+}
+
+.button:active {
+  transform: translateY(4px);
+}
+
+.main {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.Vertical_line {
+  border-left: 4px solid rgb(6, 201, 81);
+}
+
+.Enrolled {
+  margin-top: 2rem;
+}
+
+.card {
+  width: 30em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  border: 2px solid rgb(97, 91, 91);
+  padding: 20px 30px;
+  background-color: rgb(217, 255, 217);
+}
+
+.cards{
+  overflow-y: scroll;
+  max-height: 28em;
+}
+
+  
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(5, 37, 126, 0.603);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(11, 1, 49, 0.671);
+  border-radius: 10px;
+}
+
+.image>img {
+  width: 120px;
+  margin: 10px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 7px;
+}
+
+.text {
+  margin: 10px;
+}
